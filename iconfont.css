@@ -1,0 +1,48 @@
+@font-face {
+    font-family: "Iconify Explorer Font";
+    src: url("./iconfont.eot");
+    src: url("./iconfont.eot") format("embedded-opentype"),
+        url("./iconfont.ttf") format("truetype"),
+        url("./iconfont.woff") format("woff"),
+        url("./iconfont.woff2") format("woff2"),
+        url("./iconfont.svg") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.i {
+    font-family: "Iconify Explorer Font" !important;
+    font-size: 1em;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+.i.material-symbols\:apk-document-outline:before {
+    content: "\e001";
+}
+
+.i.material-symbols\:arrow-drop-down:before {
+    content: "\e002";
+}
+
+.i.material-symbols\:assistant-navigation-outline:before {
+    content: "\e003";
+}
+
+.i.material-symbols\:house-outline:before {
+    content: "\e004";
+}
+
+.i.material-symbols\:location-on-outline:before {
+    content: "\e005";
+}
+
+.i.material-symbols\:person-4-outline-rounded:before {
+    content: "\e006";
+}
+
+.i.material-symbols\:search-rounded:before {
+    content: "\e007";
+}

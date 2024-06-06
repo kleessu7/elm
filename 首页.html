@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>饿了么首页</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="首页-style.css">
+    <link rel="stylesheet" href="首页-banner.css">
+    <link rel="stylesheet" href="首页-superVIP.css">
+    <link rel="stylesheet" href="首页-recommend.css">
+    <link rel="stylesheet" href="首页-recommend-style.css">
+    <link rel="stylesheet" href="首页-bussiness.css">
+    <script src="首页-top-search.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <main class="main">
+
+            <div class="top">
+
+                <div class="location">
+                    <i class='bx bxs-location-plus'></i>
+                    <span>云南大学呈贡校区</span>
+                    <i class='bx bxs-down-arrow'></i>
+                </div>
+
+                <div class="search">
+                    <div class="search-text" id="fixedBox">
+                        <div class="search-box">
+                            <i class='bx bx-search'></i>
+                            <span>搜索饿了么商家、商品名称</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="food-categary">
+                <div class="categary-item" onclick="location.href='发现.html'">
+                    <img src="img/dcfl01.png" alt="">
+                    <span>美食</span>
+                </div>
+                <div class="categary-item" onclick="location.href='发现.html'">
+                    <img src="img/dcfl02.png" alt="">
+                    <span>早餐</span>
+                </div>
+                <div class="categary-item" onclick="location.href='发现.html'">
+                    <img src="img/dcfl03.png" alt="">
+                    <span>跑腿代购</span>
+                </div>
+                <div class="categary-item" onclick="location.href='发现.html'">
+                    <img src="img/dcfl04.png" alt="">
+                    <span>汉堡披萨</span>
+                </div>
+                <div class="categary-item" onclick="location.href='发现.html'">
+                    <img src="img/dcfl05.png" alt="">
+                    <span>甜品饮品</span>
+                </div>
+                <div class="categary-item" onclick="location.href='发现.html'">
+                    <img src="img/dcfl06.png" alt="">
+                    <span>素食简餐</span>
+                </div>
+                <div class="categary-item" onclick="location.href='发现.html'">
+                    <img src="img/dcfl07.png" alt="">
+                    <span>地方小吃</span>
+                </div>
+                <div class="categary-item" onclick="location.href='发现.html'">
+                    <img src="img/dcfl08.png" alt="">
+                    <span>米粉面馆</span>
+                </div>
+                <div class="categary-item" onclick="location.href='发现.html'">
+                    <img src="img/dcfl09.png" alt="">
+                    <span>包子粥铺</span>
+                </div>
+                <div class="categary-item" onclick="location.href='发现.html'">
+                    <img src="img/dcfl10.png" alt="">
+                    <span>炸鸡炸串</span>
+                </div>
+            </div>
+
+            <!-- 横幅广告部分 -->
+            <div class="banner">
+                <h3>品质套餐</h3>
+                <p>搭配齐全吃得好</p>
+                <a>立即抢购 &gt;</a>
+            </div>
+
+            <!-- 超级会员部分 -->
+            <div class="superVIP">
+                <div class="superVIP-left">
+                    <img src="img/super_member.png" alt="">
+                    <h3>超级会员</h3>
+                    <!-- 转义字符：“·” -->
+                    <p>&#8226; 每月享超级权益</p>
+                </div>
+                <div class="superVIP-right">
+                    <!-- 转义字符：“->” -->
+                    立即开通 &gt;
+                </div>
+            </div>
+
+            <!-- 推荐商家部分 -->
+            <div class="recommend">
+                <div class="recommend-line"></div>
+                <p>推荐商家</p>
+                <div class="recommend-line"></div>
+            </div>
+
+            <!-- 推荐方式部分 -->
+            <div class="recommend-style">
+                <span>综合排序<i class='bx bxs-down-arrow'></i></span>
+                <span>距离最近</span>
+                <span>销量最高</span>
+                <span>筛选<i class='bx bxs-filter-alt'></i></span>
+            </div>
+
+            <!-- 点餐列表部分 -->
+            <div class="business">
+
+                <div class="business-content">
+
+                    <img src="img/sj01.png" alt="">
+
+                    <div class="business-right">
+                        <div class="line1">
+                            <h3>万家饺子（软件园E18店）</h3>
+                            <!-- 转义字符：“·” -->
+                            <div class="line1-right">&#8226;</div>
+                        </div>
+
+                        <div class="line2">
+                            <div class="line2-left">
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <p>4.9 月售345单</p>
+                            </div>
+                            <div class="line2-right">
+                                蜂鸟专送
+                            </div>
+                        </div>
+
+                        <div class="line3">
+                            <!-- 转义字符&#165：人民币符号 -->
+                            <p>&#165;15起送 | &#165;3配送</p>
+                            <p>3.22km | 30分钟</p>
+                        </div>
+
+                        <div class="line4">
+                            <div>各种饺子</div>
+                        </div>
+
+                        <div class="line5">
+                            <div class="line5-left">
+                                <div class="line5-left-sign">新</div>
+                                <p>饿了么新用户首单立减9元</p>
+                            </div>
+                            <div class="line5-right">
+                                <p>2个活动</p>
+                                <i class='bx bxs-down-arrow'></i>
+                            </div>
+                        </div>
+
+                        <div class="line6">
+                            <div class="line6-sign">特</div>
+                            <p>特价商品5元起</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="business-content">
+
+                    <img src="img/sj02.png" alt="">
+
+                    <div class="business-right">
+                        <div class="line1">
+                            <h3>小锅饭豆腐馆（全运店）</h3>
+                            <!-- 转义字符：“·” -->
+                            <div class="line1-right">&#8226;</div>
+                        </div>
+
+                        <div class="line2">
+                            <div class="line2-left">
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <p>4.9 月售345单</p>
+                            </div>
+                            <div class="line2-right">
+                                蜂鸟专送
+                            </div>
+                        </div>
+
+                        <div class="line3">
+                            <!-- 转义字符&#165：人民币符号 -->
+                            <p>&#165;15起送 | &#165;3配送</p>
+                            <p>3.22km | 30分钟</p>
+                        </div>
+
+                        <div class="line4">
+                            <div>各种饺子</div>
+                        </div>
+
+                        <div class="line5">
+                            <div class="line5-left">
+                                <div class="line5-left-sign">新</div>
+                                <p>饿了么新用户首单立减9元</p>
+                            </div>
+                            <div class="line5-right">
+                                <p>2个活动</p>
+                                <i class='bx bxs-down-arrow'></i>
+                            </div>
+                        </div>
+
+                        <div class="line6">
+                            <div class="line6-sign">特</div>
+                            <p>特价商品5元起</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="business-content">
+
+                    <img src="img/sj03.png" alt="">
+
+                    <div class="business-right">
+                        <div class="line1">
+                            <h3>麦当劳乐送（全运路店）</h3>
+                            <!-- 转义字符：“·” -->
+                            <div class="line1-right">&#8226;</div>
+                        </div>
+
+                        <div class="line2">
+                            <div class="line2-left">
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <p>4.9 月售345单</p>
+                            </div>
+                            <div class="line2-right">
+                                蜂鸟专送
+                            </div>
+                        </div>
+
+                        <div class="line3">
+                            <!-- 转义字符&#165：人民币符号 -->
+                            <p>&#165;15起送 | &#165;3配送</p>
+                            <p>3.22km | 30分钟</p>
+                        </div>
+
+                        <div class="line4">
+                            <div>各种饺子</div>
+                        </div>
+
+                        <div class="line5">
+                            <div class="line5-left">
+                                <div class="line5-left-sign">新</div>
+                                <p>饿了么新用户首单立减9元</p>
+                            </div>
+                            <div class="line5-right">
+                                <p>2个活动</p>
+                                <i class='bx bxs-down-arrow'></i>
+                            </div>
+                        </div>
+
+                        <div class="line6">
+                            <div class="line6-sign">特</div>
+                            <p>特价商品5元起</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="business-content">
+
+                    <img src="img/sj04.png" alt="">
+
+                    <div class="business-right">
+                        <div class="line1">
+                            <h3>米村拌饭（浑南店）</h3>
+                            <!-- 转义字符：“·” -->
+                            <div class="line1-right">&#8226;</div>
+                        </div>
+
+                        <div class="line2">
+                            <div class="line2-left">
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <p>4.9 月售345单</p>
+                            </div>
+                            <div class="line2-right">
+                                蜂鸟专送
+                            </div>
+                        </div>
+
+                        <div class="line3">
+                            <!-- 转义字符&#165：人民币符号 -->
+                            <p>&#165;15起送 | &#165;3配送</p>
+                            <p>3.22km | 30分钟</p>
+                        </div>
+
+                        <div class="line4">
+                            <div>各种饺子</div>
+                        </div>
+
+                        <div class="line5">
+                            <div class="line5-left">
+                                <div class="line5-left-sign">新</div>
+                                <p>饿了么新用户首单立减9元</p>
+                            </div>
+                            <div class="line5-right">
+                                <p>2个活动</p>
+                                <i class='bx bxs-down-arrow'></i>
+                            </div>
+                        </div>
+
+                        <div class="line6">
+                            <div class="line6-sign">特</div>
+                            <p>特价商品5元起</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="business-content">
+
+                    <img src="img/sj05.png" alt="">
+
+                    <div class="business-right">
+                        <div class="line1">
+                            <h3>申记串道（中海康城店）</h3>
+                            <!-- 转义字符：“·” -->
+                            <div class="line1-right">&#8226;</div>
+                        </div>
+
+                        <div class="line2">
+                            <div class="line2-left">
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <p>4.9 月售345单</p>
+                            </div>
+                            <div class="line2-right">
+                                蜂鸟专送
+                            </div>
+                        </div>
+
+                        <div class="line3">
+                            <!-- 转义字符&#165：人民币符号 -->
+                            <p>&#165;15起送 | &#165;3配送</p>
+                            <p>3.22km | 30分钟</p>
+                        </div>
+
+                        <div class="line4">
+                            <div>各种饺子</div>
+                        </div>
+
+                        <div class="line5">
+                            <div class="line5-left">
+                                <div class="line5-left-sign">新</div>
+                                <p>饿了么新用户首单立减9元</p>
+                            </div>
+                            <div class="line5-right">
+                                <p>2个活动</p>
+                                <i class='bx bxs-down-arrow'></i>
+                            </div>
+                        </div>
+
+                        <div class="line6">
+                            <div class="line6-sign">特</div>
+                            <p>特价商品5元起</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="business-content">
+
+                    <img src="img/sj06.png" alt="">
+
+                    <div class="business-right">
+                        <div class="line1">
+                            <h3>半亩良田排骨米饭</h3>
+                            <!-- 转义字符：“·” -->
+                            <div class="line1-right">&#8226;</div>
+                        </div>
+
+                        <div class="line2">
+                            <div class="line2-left">
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <p>4.9 月售345单</p>
+                            </div>
+                            <div class="line2-right">
+                                蜂鸟专送
+                            </div>
+                        </div>
+
+                        <div class="line3">
+                            <!-- 转义字符&#165：人民币符号 -->
+                            <p>&#165;15起送 | &#165;3配送</p>
+                            <p>3.22km | 30分钟</p>
+                        </div>
+
+                        <div class="line4">
+                            <div>各种饺子</div>
+                        </div>
+
+                        <div class="line5">
+                            <div class="line5-left">
+                                <div class="line5-left-sign">新</div>
+                                <p>饿了么新用户首单立减9元</p>
+                            </div>
+                            <div class="line5-right">
+                                <p>2个活动</p>
+                                <i class='bx bxs-down-arrow'></i>
+                            </div>
+                        </div>
+
+                        <div class="line6">
+                            <div class="line6-sign">特</div>
+                            <p>特价商品5元起</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="business-content">
+
+                    <img src="img/sj07.png" alt="">
+
+                    <div class="business-right">
+                        <div class="line1">
+                            <h3>茶兮鲜果饮品（国际软件园店）</h3>
+                            <!-- 转义字符：“·” -->
+                            <div class="line1-right">&#8226;</div>
+                        </div>
+
+                        <div class="line2">
+                            <div class="line2-left">
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <p>4.9 月售345单</p>
+                            </div>
+                            <div class="line2-right">
+                                蜂鸟专送
+                            </div>
+                        </div>
+
+                        <div class="line3">
+                            <!-- 转义字符&#165：人民币符号 -->
+                            <p>&#165;15起送 | &#165;3配送</p>
+                            <p>3.22km | 30分钟</p>
+                        </div>
+
+                        <div class="line4">
+                            <div>各种饺子</div>
+                        </div>
+
+                        <div class="line5">
+                            <div class="line5-left">
+                                <div class="line5-left-sign">新</div>
+                                <p>饿了么新用户首单立减9元</p>
+                            </div>
+                            <div class="line5-right">
+                                <p>2个活动</p>
+                                <i class='bx bxs-down-arrow'></i>
+                            </div>
+                        </div>
+
+                        <div class="line6">
+                            <div class="line6-sign">特</div>
+                            <p>特价商品5元起</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="business-content">
+
+                    <img src="img/sj08.png" alt="">
+
+                    <div class="business-right">
+                        <div class="line1">
+                            <h3>唯一水果捞（软件园E8店）</h3>
+                            <!-- 转义字符：“·” -->
+                            <div class="line1-right">&#8226;</div>
+                        </div>
+
+                        <div class="line2">
+                            <div class="line2-left">
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <p>4.9 月售345单</p>
+                            </div>
+                            <div class="line2-right">
+                                蜂鸟专送
+                            </div>
+                        </div>
+
+                        <div class="line3">
+                            <!-- 转义字符&#165：人民币符号 -->
+                            <p>&#165;15起送 | &#165;3配送</p>
+                            <p>3.22km | 30分钟</p>
+                        </div>
+
+                        <div class="line4">
+                            <div>各种饺子</div>
+                        </div>
+
+                        <div class="line5">
+                            <div class="line5-left">
+                                <div class="line5-left-sign">新</div>
+                                <p>饿了么新用户首单立减9元</p>
+                            </div>
+                            <div class="line5-right">
+                                <p>2个活动</p>
+                                <i class='bx bxs-down-arrow'></i>
+                            </div>
+                        </div>
+
+                        <div class="line6">
+                            <div class="line6-sign">特</div>
+                            <p>特价商品5元起</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="business-content">
+
+                    <img src="img/sj09.png" alt="">
+
+                    <div class="business-right">
+                        <div class="line1">
+                            <h3>满园春饼（全运路店）</h3>
+                            <!-- 转义字符：“·” -->
+                            <div class="line1-right">&#8226;</div>
+                        </div>
+
+                        <div class="line2">
+                            <div class="line2-left">
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <p>4.9 月售345单</p>
+                            </div>
+                            <div class="line2-right">
+                                蜂鸟专送
+                            </div>
+                        </div>
+
+                        <div class="line3">
+                            <!-- 转义字符&#165：人民币符号 -->
+                            <p>&#165;15起送 | &#165;3配送</p>
+                            <p>3.22km | 30分钟</p>
+                        </div>
+
+                        <div class="line4">
+                            <div>各种饺子</div>
+                        </div>
+
+                        <div class="line5">
+                            <div class="line5-left">
+                                <div class="line5-left-sign">新</div>
+                                <p>饿了么新用户首单立减9元</p>
+                            </div>
+                            <div class="line5-right">
+                                <p>2个活动</p>
+                                <i class='bx bxs-down-arrow'></i>
+                            </div>
+                        </div>
+
+                        <div class="line6">
+                            <div class="line6-sign">特</div>
+                            <p>特价商品5元起</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </main>
+
+        <footer class="footer">
+            <div onclick="location.href='首页.html'">
+                <i class='bx bxs-home'></i>
+                <span>首页</span>
+            </div>
+            <div ondblclick="location.href='发现.html'">
+                <i class='bx bx-compass'></i>
+                <span>发现</span>
+            </div>
+            <div onclick="location.href='订单.html'">
+                <i class='bx bx-file-blank'></i>
+                <span>订单</span>
+            </div>
+            <div onclick="location.href='登录.html'">
+                <i class='bx bxs-user-detail'></i>
+                <span>我的</span>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
+
+<!-- home -->
+<!-- <i class='bx bxs-home'></i> -->
+<!-- file -->
+<!-- <i class='bx bx-file-blank'></i> -->
+<!-- 指南针 -->
+<!-- <i class='bx bx-compass'></i><br> -->
+<!-- 通讯录 -->
+<!-- <i class='bx bxs-user-detail'></i><br> -->

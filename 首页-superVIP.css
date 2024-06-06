@@ -1,0 +1,51 @@
+/* 超级会员部分 */
+.superVIP {
+    width: 95%;
+    margin: 0 auto;
+    height: 11.5vw;
+    background-color: #FEEDC1;
+    margin-top: 1.3vw;
+    /* 圆角： */
+    border-radius: 2px;
+    color: #644F1B;
+
+    /* 让superVIP-right和superVIP-left的字水平排列： */
+    display: flex;
+    /* 水平对齐（紧靠左右两边）： */
+    justify-content: space-between;
+    /* 垂直方向居中排列： */
+    align-items: center;
+}
+
+/* 令其左边部分弹性布局： */
+.superVIP .superVIP-left {
+    display: flex;
+    align-items: center;
+    /* 设置左外边距： */
+    margin-left: 4vw;
+    /* user-select: 控制用户是否可以选择文本。none是不可选中 */
+    user-select: none;
+}
+
+.superVIP .superVIP-left img {
+    width: 6vw;
+    height: 6vw;
+    /* 让图标和文字隔开距离： */
+    margin-right: 2vw;
+}
+
+.superVIP .superVIP-left h3 {
+    font-size: 4vw;
+    margin-right: 2vw;
+}
+
+.superVIP .superVIP-left p {
+    font-size: 3vw;
+}
+
+.superVIP .superVIP-right {
+    font-size: 3vw;
+    margin-right: 4vw;
+    /* 令其可以点击： */
+    cursor: pointer;
+}

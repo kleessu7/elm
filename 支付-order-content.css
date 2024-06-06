@@ -1,0 +1,32 @@
+h3 {
+    box-sizing: border-box;
+    /* 上外边距：4vw;左右外边距：4vw；下外边距：0 */
+    padding: 4vw 4vw 0;
+    /* header高12vw */
+    margin-top: 12vw;
+    font-size: 4vw;
+    font-weight: 300;
+    color: #999;
+}
+
+.order-content {
+    box-sizing: border-box;
+    padding: 4vw;
+    font-size: 4vw;
+    color: #666;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.order-content .order-content-left i {
+    /* 等比例缩小为原来的0.6： */
+    transform: scale(0.6);
+    /* 垂直方向对齐： */
+    vertical-align: -0.05em;
+}
+
+.order-content .order-content-right p {
+    color: orangered;
+}

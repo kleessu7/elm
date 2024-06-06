@@ -1,0 +1,41 @@
+.business {
+    width: 100%;
+    /* header高12vw */
+    margin-top: 12vw;
+}
+
+.business .business-logo {
+    width: 100%;
+    height: 35vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.business .business-logo img {
+    width: 40vw;
+    height: 30vw;
+    border-radius: 5px;
+}
+
+.business .business-text {
+    width: 100%;
+    height: 20vw;
+
+    display: flex;
+    /* 令文本垂直排列： */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.business .business-text h1 {
+    font-size: 5vw;
+}
+
+.business .business-text p {
+    font-size: 3vw;
+    color: #666;
+    margin-top: 1vw;
+}

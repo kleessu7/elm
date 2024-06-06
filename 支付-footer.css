@@ -1,0 +1,21 @@
+.footer {
+    flex-basis: 5em;
+    border-top: 1px solid lightgray;
+    /* 设为flex布局模式后，子元素的float、clear和vertical-align属性失效 */
+    display: flex;
+    /* 均匀排列每个元素，每个元素周围分配相同的空间 */
+    justify-content: space-around;
+    align-items: center;
+    color: gray;
+    background-color: #FFF;
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer div i {
+    font-size: 2em;
+    display: block;
+}

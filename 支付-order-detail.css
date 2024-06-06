@@ -1,0 +1,18 @@
+.order-detail {
+    width: 100%;
+}
+
+.order-detail .order-detail-line {
+    box-sizing: border-box;
+    /* 上下内边距：1vw;左右内边距：4vw */
+    padding: 1vw 4vw;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.order-detail .order-detail-line p {
+    font-size: 3vw;
+    color: #666;
+}

@@ -1,0 +1,111 @@
+.footer .cart {
+    width: 100%;
+    height: 14vw;
+    /* 将其固定在底部： */
+    position: fixed;
+    left: 0;
+    bottom: 0;
+
+    display: flex;
+}
+
+.footer .cart .cart-left {
+    /* 占2/3： */
+    flex: 2;
+    background-color: #505051;
+
+    display: flex;
+}
+
+.footer .cart .cart-left .cart-left-icon {
+    width: 16vw;
+    height: 16vw;
+    /* 避免边框尺寸影响盒子整体尺寸，将盒子做成边框盒子： */
+    box-sizing: border-box;
+    border: solid 1.6vw #444;
+    border-radius: 8vw;
+    background-color: #3190E8;
+    /* 设置图标的大小和颜色： */
+    font-size: 7vw;
+    color: #FFF;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: -4vw;
+    margin-left: 3vw;
+
+    /* 相对定位： */
+    position: relative;
+}
+
+.footer .cart .cart-left .cart-left-icon .cart-icon-num {
+    position: absolute;
+    right: -1.5vw;
+    top: -1.5vw;
+
+    width: 5vw;
+    height: 5vw;
+    border-radius: 2.5vw;
+    background-color: red;
+    color: #FFF;
+    font-size: 3.6vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .cart .cart-left .cart-left-text p {
+    font-size: 4.5vw;
+    color: #FFF;
+    margin-top: 1vw;
+    margin-left: 1vw;
+}
+
+/* 定义一组p标签中最后一组p标签的css： */
+.footer .cart .cart-left .cart-left-text p:last-child {
+    font-size: 2.8vw;
+    color: #AAA;
+    margin-top: 0;
+}
+
+.footer .cart .cart-right {
+    /* 占1/3： */
+    flex: 1;
+    background-color: #38CA73;
+}
+
+/* 达到起送费： */
+.footer .cart .cart-right .cart-right-text {
+    /* 占右边的全部： */
+    width: 100%;
+    height: 100%;
+    background-color: #38CA73;
+    color: #FFF;
+    font-size: 4.5vw;
+    font-weight: 700;
+    user-select: none;
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 不够起送费： */
+/* .footer .cart .cart-right .cart-right-text { */
+/* 占右边的全部： */
+/* width: 100%; */
+/* height: 100%; */
+/* background-color: #535356; */
+/* color: #FFF; */
+/* font-size: 4.5vw; */
+/* font-weight: 700; */
+/* user-select: none; */
+
+/* display: flex; */
+/* justify-content: center; */
+/* align-items: center; */
+/* } */

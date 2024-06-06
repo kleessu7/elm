@@ -1,0 +1,85 @@
+.register {
+    width: 100%;
+    /* header高12vw */
+    margin-top: 12vw;
+}
+
+.register .register-text {
+    width: 100%;
+    /* 上内边距4vw;右内边距3vw；下内边距0；做内边距3vw */
+    padding: 4vw 3vw 0 3vw;
+    display: flex;
+    align-items: center;
+}
+
+.register .register-text .register-num-title {
+    /* 标题部分不缩小，不放大，固定为18vw： */
+    /* flex: flex-grow flex-shrink flex-basis(定义了子元素在主轴方向的基本尺寸，宽度为18vw) */
+    flex: 0 0 18vw;
+    font-size: 3vw;
+    font-weight: 700;
+    color: #666;
+}
+
+.register .register-text .register-num-content {
+    /* 即flex-grow: 1。表示容器有多余空间时，子元素会增长来占用这些空间 */
+    flex: 1;
+}
+
+.register .register-text .register-num-content input {
+    /* 去掉边框： */
+    border: none;
+    /* 去掉外轮廓线（鼠标定在边框会显示边框轮廓线） */
+    outline: none;
+    /* 占满剩下的全部空间： */
+    width: 100%;
+    height: 4vw;
+    font-size: 3vw;
+    display: flex;
+    align-items: center;
+}
+
+.register .register-text .register-code-title {
+    /* 标题部分不缩小，不放大，固定为18vw： */
+    /* flex: flex-grow flex-shrink flex-basis(定义了子元素在主轴方向的基本尺寸，宽度为18vw) */
+    flex: 0 0 18vw;
+    font-size: 3vw;
+    font-weight: 700;
+    color: #666;
+}
+
+.register .register-text .register-code-content {
+    /* 即flex-grow: 1。表示容器有多余空间时，子元素会增长来占用这些空间 */
+    flex: 1;
+}
+
+.register .register-text .register-code-content input {
+    /* 去掉边框： */
+    border: none;
+    /* 去掉外轮廓线（鼠标定在边框会显示边框轮廓线） */
+    outline: none;
+    /* 占满剩下的全部空间： */
+    width: 100%;
+    height: 4vw;
+    font-size: 3vw;
+    display: flex;
+    align-items: center;
+}
+
+.register .register-text .register-sex-title {
+    /* 标题部分不缩小，不放大，固定为18vw： */
+    /* flex: flex-grow flex-shrink flex-basis(定义了子元素在主轴方向的基本尺寸，宽度为18vw) */
+    flex: 0 0 18vw;
+    font-size: 3vw;
+    font-weight: 700;
+    color: #666;
+}
+
+.register .register-text .register-sex-content {
+    font-size: 3vw;
+}
+
+#sex {
+    width: 6vw;
+    height: 3.2vw;
+}

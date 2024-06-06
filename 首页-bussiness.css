@@ -1,0 +1,200 @@
+.business {
+    width: 100%;
+}
+
+.business .business-content {
+    width: 100%;
+    /* 边框盒子： */
+    /* 加了该属性，padding和border的值就不会再影响元素的宽和高，相当于把padding和border的值都算在了content里 */
+    box-sizing: border-box;
+    /* 内边距： */
+    padding: 2.5vw;
+    /* user-select: 控制用户是否可以选择文本。none是不可选中 */
+    user-select: none;
+
+    display: flex;
+
+    border-bottom: solid 0.3px #DDD;
+}
+
+.business .business-content img {
+    width: 18vw;
+    height: 18vw;
+}
+
+.business .business-content .business-right {
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 3vw;
+}
+
+.business .business-content .business-right .line1 {
+    display: flex;
+    /* 弹性布局水平方向分局两边： */
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2vw;
+}
+
+.business .business-content .business-right .line1 h3 {
+    font-size: 4vw;
+    color: #333;
+}
+
+.business .business-content .business-right .line1 .line1-right {
+    width: 1.6vw;
+    height: 3.4vw;
+    background-color: #666;
+    color: #FFF;
+
+    /* 设置白点的大小： */
+    font-size: 4vw;
+    /* 右外边距： */
+    margin-right: 4vw;
+
+    /* 令中间的白点上下左右都居中： */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.business .business-content .business-right .line2 {
+    display: flex;
+    /* 弹性布局水平方向分局两边： */
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2vw;
+    font-size: 3.1vw;
+}
+
+.business .business-content .business-right .line2 .line2-left {
+    display: flex;
+    align-items: center;
+}
+
+.business .business-content .business-right .line2 .line2-left .bxs-star {
+    color: #FEC80E;
+    margin-right: 0.5vw;
+}
+
+.business .business-content .business-right .line2 .line2-left p {
+    color: #666;
+    margin-left: 1vw;
+}
+
+.business .business-content .business-right .line2 .line2-right {
+    background-color: #0097FF;
+    color: #FFF;
+    font-size: 4vw;
+    border-radius: 1px;
+    /* 上下内边距0，左右内边距0.6vw： */
+    padding: 0 0.6vw;
+}
+
+.business .business-content .business-right .line3 {
+    display: flex;
+    /* 弹性布局水平方向分局两边： */
+    justify-content: space-between;
+    /* 垂直方向居中： */
+    align-items: center;
+    margin-bottom: 2vw;
+    color: #666;
+    font-size: 3.1vw;
+}
+
+.business .business-content .business-right .line4 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 3vw;
+}
+
+.business .business-content .business-right .line4 div {
+    border: solid 0.1px #DDD;
+    font-size: 2.8vw;
+    color: #666;
+    border-radius: 1px;
+    /* 上下内边距为0，左右内边距为0.1vw： */
+    padding: 0 0.1vw;
+}
+
+.business .business-content .business-right .line5 {
+    display: flex;
+    /* 弹性布局水平方向分局两边： */
+    justify-content: space-between;
+    /* 垂直方向居中： */
+    align-items: center;
+    margin-bottom: 1.8vw;
+}
+
+.business .business-content .business-right .line5 .line5-left {
+    /* 弹性布局令其默认靠左： */
+    display: flex;
+    align-items: center;
+}
+
+.business .business-content .business-right .line5 .line5-left .line5-left-sign {
+    width: 4vw;
+    height: 4vw;
+    background-color: #70BC46;
+    border-radius: 0.5px;
+    font-size: 3vw;
+    color: #FFF;
+
+    display: flex;
+    /* 弹性布局水平方向居中： */
+    justify-content: center;
+    /* 垂直方向居中： */
+    align-items: center;
+}
+
+.business .business-content .business-right .line5 .line5-left p {
+    color: #666;
+    font-size: 3.5vw;
+    margin-left: 2vw;
+}
+
+.business .business-content .business-right .line5 .line5-right {
+    display: flex;
+    align-items: center;
+    color: #999;
+}
+
+.business .business-content .business-right .line5 .line5-right p {
+    font-size: 3.3vw;
+    margin-right: 2vw;
+}
+
+.business .business-content .business-right .line5 .line5-right .bxs-down-arrow {
+    /* 等比例缩小为原来的0.6： */
+    transform: scale(0.6);
+    /* 垂直方向对齐： */
+    vertical-align: -0.05em;
+}
+
+.business .business-content .business-right .line6 {
+    display: flex;
+    /* 垂直方向居中： */
+    align-items: center;
+    margin-bottom: 1.8vw;
+}
+
+.business .business-content .business-right .line6 .line6-sign {
+    width: 4vw;
+    height: 4vw;
+    background-color: #F1884F;
+    border-radius: 0.5px;
+    font-size: 3vw;
+    color: #FFF;
+
+    display: flex;
+    /* 弹性布局水平方向居中： */
+    justify-content: center;
+    /* 垂直方向居中： */
+    align-items: center;
+}
+
+.business .business-content .business-right .line6 p {
+    color: #666;
+    font-size: 3.5vw;
+    margin-left: 2vw;
+}

@@ -1,0 +1,65 @@
+h3 {
+    /* header高12vw */
+    margin-top: 12vw;
+    box-sizing: border-box;
+    padding: 4vw;
+    font-size: 4vw;
+    font-weight: 300;
+    color: #999;
+}
+
+.order {
+    width: 100%;
+}
+
+.order .order-list {
+    width: 100%;
+    box-sizing: border-box;
+    /* 上下内边距2vw；左右内边距4vw */
+    padding: 2vw 4vw;
+    font-size: 4vw;
+    color: #666;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.order .order-list .order-list-left i {
+    /* 等比例缩小为原来的0.6： */
+    transform: scale(0.6);
+    /* 垂直方向对齐： */
+    vertical-align: -0.05em;
+}
+
+.order .order-list .order-list-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.order .order-list .order-list-right span {
+    background-color: #F90;
+    color: #FFF;
+    border-radius: 3px;
+    margin-left: 2vw;
+    user-select: none;
+    cursor: pointer;
+}
+
+.order .order-detail {
+    width: 100%;
+}
+
+.order .order-detail .order-detail-line {
+    width: 100%;
+    box-sizing: border-box;
+    /* 上下内边距1vw；左右内边距4vw */
+    padding: 1vw 4vw;
+    color: #666;
+    font-size: 3vw;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

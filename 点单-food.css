@@ -1,0 +1,66 @@
+.food {
+    width: 100%;
+    /* footer部分14vw： */
+    margin-bottom: 14vw;
+}
+
+.food .food-content {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 2.5vw;
+    user-select: none;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.food .food-content .food-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.food .food-content .food-left img {
+    width: 20vw;
+    height: 20vw;
+}
+
+.food .food-content .food-left .food-left-text {
+    margin-left: 3vw;
+}
+
+.food .food-content .food-left .food-left-text h3 {
+    font-size: 3.8vw;
+    color: #555;
+}
+
+.food .food-content .food-left .food-left-text p {
+    font-size: 3vw;
+    color: #888;
+    margin-top: 2vw;
+}
+
+.food .food-content .food-right {
+    width: 16vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.food .food-content .food-right .minus {
+    font-size: 5.5vw;
+    color: #999;
+    cursor: pointer;
+}
+
+.food .food-content .food-right span {
+    font-size: 3.6vw;
+    color: #333;
+}
+
+.food .food-content .food-right .add {
+    font-size: 5.5vw;
+    color: #0097EF;
+    cursor: pointer;
+}

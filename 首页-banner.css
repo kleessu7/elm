@@ -1,0 +1,33 @@
+/* 横幅广告部分 */
+.banner {
+    width: 95%;
+    margin: 0 auto;
+    height: 29vw;
+
+    background-image: url(img/index_banner.png);
+    /* 背景图片不平铺 */
+    background-repeat: no-repeat;
+    /* 背景图片成比例的充满整个窗口 */
+    background-size: cover;
+
+    box-sizing: border-box;
+    /* 上下内边距2vw,左右内边距6vw */
+    padding: 2vw 6vw;
+}
+
+.banner h3 {
+    font-size: 4.2vw;
+    margin-bottom: 1.2vw;
+}
+
+.banner p {
+    font-size: 3.4vw;
+    color: #666;
+    margin-bottom: 2.4vw;
+}
+
+.banner a {
+    font-size: 3vw;
+    color: #C79060;
+    font-weight: 700;
+}

@@ -1,0 +1,64 @@
+.business {
+    width: 100%;
+    /* header部分12vw： */
+    margin-top: 12vw;
+    /* footer部分14vw： */
+    margin-bottom: 14vw;
+}
+
+.business .business-content {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 2.5vw;
+    border-bottom: solid 1px #DDD;
+    user-select: none;
+    /* cursor：网页浏览时用户鼠标指针的样式   pointer：光标为一只手 */
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+}
+
+.business .business-content .business-left {
+    /* 相对定位： */
+    position: relative;
+}
+
+.business .business-content .business-left img {
+    width: 20vw;
+    height: 20vw;
+}
+
+.business .business-content .business-left .business-img-num {
+    width: 5vw;
+    height: 5vw;
+    background-color: red;
+    color: #FFF;
+    font-size: 3.6vw;
+    border-radius: 2.5vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* 绝对定位： */
+    position: absolute;
+    /* 红色图标只是超出到了右边和上边： */
+    right: -1.5vw;
+    top: -1.5vw;
+}
+
+.business .business-content .business-right {
+    margin-left: 3vw;
+}
+
+.business .business-content .business-right h3 {
+    font-size: 3.8vw;
+    color: #555;
+}
+
+.business .business-content .business-right p {
+    font-size: 3vw;
+    color: #888;
+    margin-top: 2vw;
+}
