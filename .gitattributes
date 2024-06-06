@@ -1,2 +1,6 @@
-*.yaml linguist-language=HTML, CSS, JavaScript
-*.xml linguist-language=HTML, CSS, JavaScript
+*.yaml linguist-language=HTML
+*.yaml linguist-language=JavaScript
+*.yaml linguist-language=CSS
+*.xml linguist-language=HTML
+*.xml linguist-language=CSS
+*.xml linguist-language=JavaScript
